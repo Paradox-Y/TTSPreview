@@ -1,0 +1,38 @@
+{
+  "provider": "cartesia",
+  "model_id": "sonic-3.5",
+  "voices": [
+    {
+      "id": "1cd6668f-84b9-41a2-adbd-b7328f8d6ef4",
+      "name": "Hila - Warm Guide",
+      "gender": "feminine",
+      "language": "he",
+      "country": "IL",
+      "description": "Warm and clear voice for reassuring customer support and guidance."
+    },
+    {
+      "id": "84b969ad-19c7-428d-b742-48d387f7f138",
+      "name": "Gil - Friendly Host",
+      "gender": "masculine",
+      "language": "he",
+      "country": "IL",
+      "description": "Warm, genuine Hebrew male perfect for conversational experiences."
+    },
+    {
+      "id": "db408a93-859c-4a0a-b6a2-220c074cc90d",
+      "name": "Hana - Easygoing Support",
+      "gender": "feminine",
+      "language": "en",
+      "country": "NZ",
+      "description": "Relaxed, warm, ideal for approachable support and everyday guidance."
+    },
+    {
+      "id": "30894953-bcce-41fe-892c-15ce19c843ff",
+      "name": "Parker - Supportive Pal",
+      "gender": "masculine",
+      "language": "en",
+      "country": "US",
+      "description": "Casual, supportive warmth for friendly conversational flows and approachable check-ins."
+    }
+  ]
+}

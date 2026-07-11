@@ -1,0 +1,46 @@
+{
+  "provider": "elevenlabs",
+  "model_id": "eleven_v3",
+  "voices": [
+    {
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "public_owner_id": "",
+      "name": "Jessica - Playful, Bright, Warm",
+      "gender": "female",
+      "accent": "american",
+      "age": "young",
+      "use_case": "conversational",
+      "category": "premade"
+    },
+    {
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "public_owner_id": "",
+      "name": "Sarah - Mature, Reassuring, Confident",
+      "gender": "female",
+      "accent": "american",
+      "age": "young",
+      "use_case": "conversational",
+      "category": "premade"
+    },
+    {
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "public_owner_id": "",
+      "name": "Brian - Deep, Resonant and Comforting",
+      "gender": "male",
+      "accent": "american",
+      "age": "middle_aged",
+      "use_case": "conversational",
+      "category": "premade"
+    },
+    {
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "public_owner_id": "",
+      "name": "Eric - Smooth, Trustworthy",
+      "gender": "male",
+      "accent": "american",
+      "age": "middle_aged",
+      "use_case": "conversational",
+      "category": "premade"
+    }
+  ]
+}
