@@ -3,36 +3,190 @@
   "model_id": "sonic-3.5",
   "voices": [
     {
+      "id": "2821fd0c-35c7-4adf-9c42-32e394bf85cb",
+      "name": "Adi - Efficient Expert",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! אדי כאן — מומחית יעילה ומוכנה לעזור לך!" }
+    },
+    {
+      "id": "43300c5e-f925-4cd2-adf7-0a031c0e242e",
+      "name": "Alma - Clear Advisor",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! אלמה כאן — בהירה, ממוקדת ומוכנה לייעץ!" }
+    },
+    {
+      "id": "4ff88d85-28a2-4870-bdc4-cd9697fd5af5",
+      "name": "Aviva - Patient Guide",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! אביבה כאן — סבלנית ומוכנה ללוות אותך בכל שלב!" }
+    },
+    {
+      "id": "ebc02c0d-61fd-48f2-a6c9-0d6683b7d466",
+      "name": "Ayala - Expert Narrator",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! איילה כאן — מספרת מומחית ומוכנה להתחיל!" }
+    },
+    {
+      "id": "3a1546bd-6781-4376-984d-70b4e9f3d2c4",
+      "name": "Dafna - Supportive Guide",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! דפנה כאן — תומכת, יציבה ומוכנה לעזור!" }
+    },
+    {
       "id": "1cd6668f-84b9-41a2-adbd-b7328f8d6ef4",
       "name": "Hila - Warm Guide",
-      "gender": "feminine",
-      "language": "he",
-      "country": "IL",
-      "description": "Warm and clear voice for reassuring customer support and guidance."
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! הילה כאן, מוכנה להתחיל לעבוד איתך!" }
+    },
+    {
+      "id": "b54dc7e4-afca-4877-aa67-2c725419b600",
+      "name": "Liora - Gentle Guide",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! ליאורה כאן — עדינה, בטוחה ומוכנה לעזור!" }
+    },
+    {
+      "id": "e8e2079b-b690-40e6-8e21-02721d3d56bc",
+      "name": "Maayan - Refined Speaker",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! מעיין כאן — מדויקת ומוכנה לתת לך שירות מעולה!" }
+    },
+    {
+      "id": "8193c793-825c-4bb1-b522-13d458ce8d68",
+      "name": "Nava - Warm Specialist",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! נבה כאן, מוכנה לעזור לך בכל שלב!" }
+    },
+    {
+      "id": "731d8feb-5eb8-4e2b-b6b3-723dfccdcd18",
+      "name": "Neta - Clear Professional",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! נטע כאן — ברורה, מקצועית ומוכנה להתחיל!" }
+    },
+    {
+      "id": "d179b385-3cd4-4972-b155-e7cb2445776f",
+      "name": "Rina - Articulate Coordinator",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! רינה כאן — מתואמת, ממוקדת ומוכנה לעבוד!" }
+    },
+    {
+      "id": "d0be495c-5e23-4b88-b12d-bc42d38be9a5",
+      "name": "Shira - Comforting Presence",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! שירה כאן — חמה, מרגיעה ומוכנה לעזור לך!" }
+    },
+    {
+      "id": "bd05edd9-cec9-4600-9af4-c9ba4e032ff9",
+      "name": "Talia - Approachable Guide",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! טליה כאן — ידידותית ומוכנה להנגיש לך כל מידע!" }
+    },
+    {
+      "id": "94c2e193-a498-44e4-b958-174478734c3f",
+      "name": "Tamar - Crisp Announcer",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! תמר כאן — ברורה, סמכותית ומוכנה להתחיל!" }
+    },
+    {
+      "id": "32a91a5d-05d2-4c1e-bd5a-ff5fd0c413f2",
+      "name": "Tehila - Calm Specialist",
+      "gender": "feminine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! תהילה כאן — רגועה, מדויקת ומוכנה לעזור!" }
+    },
+    {
+      "id": "52271edb-c161-4c76-9e33-c5c1d39de6e3",
+      "name": "Asaf - Steady Advisor",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! אסף כאן — יציב, אמין ומוכן לעזור לך!" }
+    },
+    {
+      "id": "858c98dc-db9e-4d1a-9435-557cdf77685c",
+      "name": "Avi - Calm Consultant",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! אבי כאן, בוא נתחיל לעבוד יחד!" }
+    },
+    {
+      "id": "daa4d6bb-da62-4e16-8065-76cd87942475",
+      "name": "Eitan - Modern Communicator",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! איתן כאן — תקשורת מודרנית ומקצועית, מוכן להתחיל!" }
+    },
+    {
+      "id": "a976c076-3e31-4bf2-a178-8c3ce3d52b2a",
+      "name": "Eyal - Grounded Guide",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! אייל כאן — יסודי, רגוע ומוכן ללוות אותך!" }
     },
     {
       "id": "84b969ad-19c7-428d-b742-48d387f7f138",
       "name": "Gil - Friendly Host",
-      "gender": "masculine",
-      "language": "he",
-      "country": "IL",
-      "description": "Warm, genuine Hebrew male perfect for conversational experiences."
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! גיל כאן, מוכן להתחיל לעבוד איתך!" }
     },
     {
-      "id": "db408a93-859c-4a0a-b6a2-220c074cc90d",
-      "name": "Hana - Easygoing Support",
-      "gender": "feminine",
-      "language": "en",
-      "country": "NZ",
-      "description": "Relaxed, warm, ideal for approachable support and everyday guidance."
+      "id": "33124162-0d74-48af-ab1c-c1c01bac0247",
+      "name": "Ido - Calm Communicator",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! עידו כאן — מרגיע, ממוקד ומוכן לעזור לך!" }
+    },
+    {
+      "id": "db3dc8a6-d8f8-4ca5-add9-559c849a6fa0",
+      "name": "Itai - Measured Advisor",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! איתי כאן — מחושב, קשוב ומוכן ללוות אותך!" }
+    },
+    {
+      "id": "3e32f3c5-9ac0-4192-9994-87fdb277120f",
+      "name": "Noam - Broadcaster",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! נועם כאן — ברור, סמכותי ומוכן להתחיל!" }
+    },
+    {
+      "id": "431b7e77-b46d-4eda-8362-db430ac0913c",
+      "name": "Oren - Steady Advisor",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! אורן כאן — רגוע ומקצועי, מוכן לעזור לך!" }
+    },
+    {
+      "id": "921f4026-af53-4761-ac56-1c32e44856e8",
+      "name": "Ronen - Calm Consultant",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "שלום! רונן כאן — ייעוץ רגוע ומקצועי, מוכן להתחיל!" }
+    },
+    {
+      "id": "95d91579-a3f1-4bb3-b5e1-9a97ef401628",
+      "name": "Yonatan - Measured Professional",
+      "gender": "masculine", "language": "he", "country": "IL",
+      "sentences": { "he": "היי! יונתן כאן — יציב, מדוד ומוכן לעזור לך!" }
+    },
+    {
+      "id": "12e85709-099c-480a-ba3e-875c41a9611a",
+      "name": "Arlo - Service Specialist",
+      "gender": "masculine", "language": "en", "country": "AU",
+      "sentences": { "en": "Hey! Arlo here — friendly, clear, and ready to support you!" }
+    },
+    {
+      "id": "13524ffb-a918-499a-ae97-c98c7c4408c4",
+      "name": "Barry - Helper",
+      "gender": "masculine", "language": "en", "country": "AU",
+      "sentences": { "en": "Hey there! Barry here — inviting, helpful, and at your service!" }
+    },
+    {
+      "id": "bbee10a8-4f08-4c5c-8282-e69299115055",
+      "name": "Ben - Helpful Man",
+      "gender": "masculine", "language": "en", "country": "US",
+      "sentences": { "en": "Hi! Ben here, your friendly guide for whatever you need today." }
+    },
+    {
+      "id": "86e30c1d-714b-4074-a1f2-1cb6b552fb49",
+      "name": "Carson - Curious Conversationalist",
+      "gender": "masculine", "language": "en", "country": "US",
+      "sentences": { "en": "Hey! Carson here — curious, conversational, and ready to help!" }
     },
     {
       "id": "30894953-bcce-41fe-892c-15ce19c843ff",
       "name": "Parker - Supportive Pal",
-      "gender": "masculine",
-      "language": "en",
-      "country": "US",
-      "description": "Casual, supportive warmth for friendly conversational flows and approachable check-ins."
+      "gender": "masculine", "language": "en", "country": "US",
+      "sentences": { "en": "Parker here! Let's get things rolling — I'm ready when you are!" }
     }
   ]
 }

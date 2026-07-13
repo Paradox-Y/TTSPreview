@@ -3,44 +3,304 @@
   "model_id": "eleven_v3",
   "voices": [
     {
-      "voice_id": "cgSgspJ2msm6clMCkdW9",
-      "public_owner_id": "",
+      "voice_id": "6VrKLjZfyBIk9AEmnZBI",
+      "public_owner_id": "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+      "name": "Zara – Efficient Recovery Agent",
+      "gender": "female", "accent": "indian", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey! Zara here — I'm on it and ready to help you right away!",
+        "he": "היי! זרה כאן — מוכנה לעזור לך עכשיו!"
+      }
+    },
+    {
+      "voice_id": "QLAlOeRuLwKX0skeTR7R",
+      "public_owner_id": "f995f689648bc413c1b7fb9ec8524f634e4d32f5030ee172ef6d847ba9dc5ee9",
+      "name": "Harper 2.0",
+      "gender": "female", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hi! Harper here, confident and ready to start working with you!",
+        "he": "שלום! הרפר כאן, בטוחה ומוכנה להתחיל לעבוד איתך!"
+      }
+    },
+    {
+      "voice_id": "r1KmysJdVYZjJCm4mL3b",
+      "public_owner_id": "d5a057fa67bd4518fbf13eb08503860c528f1b11bb306922220aa0c561744e90",
       "name": "Jessica - Playful, Bright, Warm",
-      "gender": "female",
-      "accent": "american",
-      "age": "young",
-      "use_case": "conversational",
-      "category": "premade"
+      "gender": "female", "accent": "american", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey! Jessica here, I'm ready to start working with you!",
+        "he": "היי! ג'סיקה כאן, מוכנה להתחיל לעבוד איתך!"
+      }
     },
     {
-      "voice_id": "EXAVITQu4vr4xnSDxMaL",
-      "public_owner_id": "",
-      "name": "Sarah - Mature, Reassuring, Confident",
-      "gender": "female",
-      "accent": "american",
-      "age": "young",
-      "use_case": "conversational",
-      "category": "premade"
+      "voice_id": "ZSNL4hPqCnqoMPaI4jGX",
+      "public_owner_id": "e33eb547f8af39719b57253a6230915455d19c17d3f7781cabe273337a2e5df2",
+      "name": "Hannah - All-American, bright, natural",
+      "gender": "female", "accent": "american", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hi there! Hannah speaking — excited to be working with you today!",
+        "he": "שלום! חנה כאן — שמחה לעבוד איתך היום!"
+      }
     },
     {
-      "voice_id": "nPczCjzI2devNBz1zQrb",
-      "public_owner_id": "",
+      "voice_id": "GZ4PpFJV8ikEGUtBrjK7",
+      "public_owner_id": "e33eb547f8af39719b57253a6230915455d19c17d3f7781cabe273337a2e5df2",
+      "name": "Laura - a top narration voice",
+      "gender": "female", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hi! Laura here — let's get this show on the road!",
+        "he": "שלום! לורה כאן — בואו נתחיל!"
+      }
+    },
+    {
+      "voice_id": "jv41DhCf464zw0TI7I1w",
+      "public_owner_id": "c93052724e2cf4ab0ebd353cc7b03213d6f29474822369d076613bac8c0fe775",
+      "name": "Imogen - Warm & Professional British Storyteller",
+      "gender": "female", "accent": "british", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hello! I'm Imogen — polished, professional, and ready to dive in.",
+        "he": "שלום! אני אימוגן — מקצועית ומוכנה להתחיל!"
+      }
+    },
+    {
+      "voice_id": "n7Wi4g1bhpw4Bs8HK5ph",
+      "public_owner_id": "9b90e86d9a4f269df3fd50cd3dc9641ad870ac1b954133a660f5e87b90703db6",
+      "name": "Gigi - Cute, Peppy, Energetic",
+      "gender": "female", "accent": "american", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey hey! Gigi here, super pumped to work with you!",
+        "he": "היי! ג'יג'י כאן, מתרגשת לעבוד איתך!"
+      }
+    },
+    {
+      "voice_id": "vXdn3dxpDdZHARskOYfz",
+      "public_owner_id": "9b90e86d9a4f269df3fd50cd3dc9641ad870ac1b954133a660f5e87b90703db6",
+      "name": "Matilda - Agent, Professional, Audiobook",
+      "gender": "female", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Matilda here — let's dive in and get things moving!",
+        "he": "מטילדה כאן — בוא נצלול פנימה ונתחיל!"
+      }
+    },
+    {
+      "voice_id": "s50zV0dPjgaPRdN9zm48",
+      "public_owner_id": "cb7a72d6e3b3ae9e359c9b93f0d759673af3280128e876f497c9993a0c8012b1",
+      "name": "Gabrielle",
+      "gender": "female", "accent": "american", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hi! Gabrielle here, so happy to connect with you today!",
+        "he": "שלום! גבריאל כאן, שמחה להתחבר איתך היום!"
+      }
+    },
+    {
+      "voice_id": "gh9yOzacZabdERF6GI7O",
+      "public_owner_id": "b6241efdfcbc0189ab7faa4986906953e00263efca552616ce4f3c59cb46b824",
+      "name": "Kai - Real AI Receptionist",
+      "gender": "female", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey! Kai here — your go-to for getting things done!",
+        "he": "היי! קאי כאן — כאן בשבילך לכל עניין!"
+      }
+    },
+    {
+      "voice_id": "FLj50PrMa40MhGHappOt",
+      "public_owner_id": "9b90e86d9a4f269df3fd50cd3dc9641ad870ac1b954133a660f5e87b90703db6",
+      "name": "Beth - Commercial, Upbeat, Engaging",
+      "gender": "female", "accent": "american", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey there! Beth here — bright, energetic, and ready to go!",
+        "he": "היי! בת' כאן — נלהבת ומוכנה לצאת לדרך!"
+      }
+    },
+    {
+      "voice_id": "tnVKC6NjwhdRxoQIfKue",
+      "public_owner_id": "0a2b6902206ee5c247450ff82caa110406aedfb7173a54281db01ffe36abe033",
+      "name": "Lyan",
+      "gender": "female", "accent": "american", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hi! Lyan here, casual and ready to help you out!",
+        "he": "שלום! ליאן כאן, מוכנה לעזור!"
+      }
+    },
+    {
+      "voice_id": "aFueGIISJUmscc05ZNfD",
+      "public_owner_id": "7be429e9064ead915e7a3aa9b88fbe10acc87f7dcfd72f58c86fd8b786338acb",
+      "name": "Terra",
+      "gender": "female", "accent": "american", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey! Terra here — grounded, ready, let's get to work!",
+        "he": "היי! טרה כאן — מוכנה לעבוד איתך!"
+      }
+    },
+    {
+      "voice_id": "gIc8QsaPK81pJ73KJ6Oc",
+      "public_owner_id": "972c2e10e1b5d1db301da690db2d589a9f409681fb704c7883224ea354ca727b",
+      "name": "Jessica - Calm",
+      "gender": "female", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hello! I'm Jessica — calm, collected, and here to help every step of the way.",
+        "he": "שלום! אני ג'סיקה — רגועה וכאן לעזור לך בכל שלב."
+      }
+    },
+    {
+      "voice_id": "Gvx1qZk9R4BUiBfsNPBU",
+      "public_owner_id": "a69313124cacd2b9236fdf460060b6d07a28d2240c1ba3c16e3ca60a1d11454f",
+      "name": "Jessica - New York",
+      "gender": "female", "accent": "new york", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Yo! Jessica here — straight to the point and ready to work with you!",
+        "he": "היי! ג'סיקה כאן — ישירה לעניין ומוכנה לעבוד!"
+      }
+    },
+    {
+      "voice_id": "Gubgw9l4dtIoQA9YZHgx",
+      "public_owner_id": "e33eb547f8af39719b57253a6230915455d19c17d3f7781cabe273337a2e5df2",
       "name": "Brian - Deep, Resonant and Comforting",
-      "gender": "male",
-      "accent": "american",
-      "age": "middle_aged",
-      "use_case": "conversational",
-      "category": "premade"
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey, Brian here! Looking forward to getting started with you.",
+        "he": "היי, כאן בריאן! מצפה להתחיל לעבוד איתך."
+      }
     },
     {
-      "voice_id": "cjVigY5qzO86Huf0OWal",
-      "public_owner_id": "",
-      "name": "Eric - Smooth, Trustworthy",
-      "gender": "male",
-      "accent": "american",
-      "age": "middle_aged",
-      "use_case": "conversational",
-      "category": "premade"
+      "voice_id": "bfGb7JTLUnZebZRiFYyq",
+      "public_owner_id": "149cc7afaf194860df2f66c5a9ca433972bb2f74dab074e92fdbd7e86a532e0c",
+      "name": "Adam - Distinct, Deep and Engaging",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Adam here! Ready when you are — let's get moving.",
+        "he": "אדם כאן! מוכן כשאתה מוכן — בוא נתחיל."
+      }
+    },
+    {
+      "voice_id": "cCYjmrGZaI86GUJ7F2Nn",
+      "public_owner_id": "fd99b11504e8c1aac6e847ea61616cd450db4e2b1b8aaa196c35d58c85fd9f28",
+      "name": "David - Deep, Warm, Narration",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hi! David here — warm, steady, and ready to help you through this.",
+        "he": "שלום! דוד כאן — חם, יציב ומוכן לעזור לך."
+      }
+    },
+    {
+      "voice_id": "bbGtsRRKUfYO634UxSjz",
+      "public_owner_id": "3f36ba3861f78fc2c5b1b5fbe2a925b34ec607061b19f82c55185b0775eb4d6c",
+      "name": "Leo v2 - Technical and Precise",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey! Leo here — technical, precise, and totally ready to go.",
+        "he": "היי! ליאו כאן — מדויק ומוכן להתחיל."
+      }
+    },
+    {
+      "voice_id": "n8kTUi6dVrplENT9Un56",
+      "public_owner_id": "9f2158eaa019a9a3c13e1ebc694bc3fe559b2f42b1713e9f04e7eb746a0bfff3",
+      "name": "Brian - Narrative",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey there! Brian here — a different voice, but just as ready to help!",
+        "he": "היי! בריאן כאן — קול שונה, אותה הנכונות לעזור!"
+      }
+    },
+    {
+      "voice_id": "3WqHLnw80rOZqJzW9YRB",
+      "public_owner_id": "79da7f36fbf802bde97037272f41096c8bc9dc1b8b4fd8559be1e6c29082395e",
+      "name": "Daniel - Radio news host",
+      "gender": "male", "accent": "british", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hello! Daniel here — let's make something great happen.",
+        "he": "שלום! דניאל כאן — בואו נגרום למשהו נהדר לקרות."
+      }
+    },
+    {
+      "voice_id": "TuRE87hoehQxHAhbCMR2",
+      "public_owner_id": "24cf976f97ebd61bcb198c710cea5e193404eff201f8e5c2fdeeee3bd0d81d8a",
+      "name": "Gutentag",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey! Gutentag here — pleasant, easy-going, and happy to get started!",
+        "he": "היי! גוטנטג כאן — נעים ושמח להתחיל!"
+      }
+    },
+    {
+      "voice_id": "JxfH70f7jvYhi0DKD8Xs",
+      "public_owner_id": "27f08375e1d0b3055a43ce3785abef90578df6457223ad19204a4ddbdcfef291",
+      "name": "Josh - Mid Twenties Midlands Accent",
+      "gender": "male", "accent": "british", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Alright! Josh here — professional and primed to help you out.",
+        "he": "בסדר! ג'וש כאן — מקצועי ומוכן לעזור לך."
+      }
+    },
+    {
+      "voice_id": "8gNL8wXI7PQOc82yBLOg",
+      "public_owner_id": "bb2cf94b50b0c896a7379e353e0cbf14e27975948e820bb6e749f0013e238cc8",
+      "name": "Elliot - Light & Professional",
+      "gender": "male", "accent": "british", "age": "young", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hi! Elliot here — light, professional, and at your service!",
+        "he": "שלום! אליוט כאן — מקצועי ולרשותך!"
+      }
+    },
+    {
+      "voice_id": "TqOasn6BO225ydKxXhaK",
+      "public_owner_id": "cdf44d1cec16eba19f95df08df0bdf0e8ae45f2aa71ee80b025733eb768563a6",
+      "name": "David - Senior",
+      "gender": "male", "accent": "american", "age": "old", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hello there! David here — wise, confident, and ready to start.",
+        "he": "שלום! דוד כאן — בטוח ומוכן להתחיל."
+      }
+    },
+    {
+      "voice_id": "AGhk9wKpcIV2UvBus4CY",
+      "public_owner_id": "9a902560beb5fb27b2231452c4c00c97b8f85f7c4d16635ad36eca2bd0557c7a",
+      "name": "Bill - Social Media",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey! Bill here — confident, steady, and ready to rock!",
+        "he": "היי! ביל כאן — בטוח ומוכן לפעולה!"
+      }
+    },
+    {
+      "voice_id": "N3u0t0H0Qzbm18cElESV",
+      "public_owner_id": "7398804d9eaf2f463899a907587c33a390591775784f87857b6d0e1e4e3e66f6",
+      "name": "Larry – Real & Energetic",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey hey! Larry here — energetic and pumped to work with you!",
+        "he": "היי! לארי כאן — נלהב ומוכן לעבוד איתך!"
+      }
+    },
+    {
+      "voice_id": "WyxfC66zZ4F16RqcMMHI",
+      "public_owner_id": "95e7935f31f209326e8bbd4ec2ebbd05ce34d72c04dac7da2d5b9d422ea05caf",
+      "name": "Michael C. Vincent",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hi! Michael here — gentle, warm, and ready to help you today.",
+        "he": "שלום! מייקל כאן — עדין, חם ומוכן לעזור היום."
+      }
+    },
+    {
+      "voice_id": "F3hPNAbHQ6mTZdjfgZdb",
+      "public_owner_id": "3565a570ec9a37b02d5cece236687fd1f7e8b24785c75df0bbec1b814a79fb0a",
+      "name": "Marcus – Powerful Motivational Narrator",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Marcus here! Powerful, motivated, and ready to get things done!",
+        "he": "מרקוס כאן! חזק, ממוקד ומוכן להגיע לתוצאות!"
+      }
+    },
+    {
+      "voice_id": "T4x5CtnhOiichhcqFzgg",
+      "public_owner_id": "675db5c1a341e2f820aefb00825680aa042d958a4a3aef3200735c799210dcb4",
+      "name": "Brad - Realistic UGC Indoor",
+      "gender": "male", "accent": "american", "age": "middle_aged", "use_case": "conversational", "category": "professional",
+      "sentences": {
+        "en": "Hey! Brad here — keeping it real and ready to work with you!",
+        "he": "היי! בראד כאן — אמיתי ומוכן לעבוד איתך!"
+      }
     }
   ]
 }

@@ -14,9 +14,9 @@ load_dotenv()
 
 OUT_JSON = Path("candidates.json")
 OUT_MD = Path("candidates.md")
-PAGES_TO_SCAN = 15  # scan wider since we're filtering to free-user-allowed
-TOP_N_PER_GENDER = 8
-FREE_USERS_ONLY = True  # account is free tier — PVCs must allow free users
+PAGES_TO_SCAN = 20  # scan top 2000 PVCs
+TOP_N_PER_GENDER = 15
+FREE_USERS_ONLY = False  # Creator plan — all PVCs accessible
 
 
 def row(v: SharedVoice) -> dict:
@@ -45,8 +45,8 @@ def main() -> None:
             category="professional", language="en", max_pages=PAGES_TO_SCAN
         )
     )
-    kept = [v for v in all_voices if (v.free_users_allowed or not FREE_USERS_ONLY)]
-    print(f"Scanned {len(all_voices)} PVC voices. {len(kept)} usable on current tier.")
+    kept = all_voices if not FREE_USERS_ONLY else [v for v in all_voices if v.free_users_allowed]
+    print(f"Scanned {len(all_voices)} PVC voices. {len(kept)} in shortlist pool.")
 
     by_gender: dict[str, list[SharedVoice]] = {"male": [], "female": []}
     for v in kept:

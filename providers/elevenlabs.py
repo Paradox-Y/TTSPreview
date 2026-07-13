@@ -103,10 +103,13 @@ class ElevenLabsClient:
         return r.json().get("voice_id")
 
     def tts(self, voice_id: str, text: str, model_id: str = DEFAULT_TTS_MODEL,
-            output_format: str = "mp3_44100_128") -> bytes:
-        """Generate speech. Returns raw audio bytes."""
+            output_format: str = "mp3_44100_128", language_code: str | None = None) -> bytes:
+        """Generate speech. Returns raw audio bytes.
+        Pass language_code (ISO 639-1) for non-English on eleven_v3."""
         url = f"{BASE_URL}/v1/text-to-speech/{voice_id}"
-        payload = {"text": text, "model_id": model_id}
+        payload: dict = {"text": text, "model_id": model_id}
+        if language_code:
+            payload["language_code"] = language_code
         r = self.session.post(
             url,
             params={"output_format": output_format},

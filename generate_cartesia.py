@@ -53,9 +53,8 @@ def main() -> None:
         name = v["name"]
         voice_id = v["id"]
         lang_code = v["language"]
-        lang_cfg = LANGUAGES[lang_code]
 
-        text = lang_cfg["sentence"]
+        text = v["sentences"][lang_code]
 
         out_dir = OUTPUT / provider / lang_code / folder_gender
         out_dir.mkdir(parents=True, exist_ok=True)
@@ -74,7 +73,7 @@ def main() -> None:
             "gender": folder_gender,
             "cartesia_gender": cartesia_gender,
             "language": lang_code,
-            "language_name": lang_cfg["name"],
+            "language_name": LANGUAGES[lang_code]["name"],
             "country": v.get("country", ""),
             "description": v.get("description", ""),
             "text": text,

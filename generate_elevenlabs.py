@@ -65,14 +65,14 @@ def main() -> None:
             local_voice_id = voice_id
             print(f"[i] Using premade/owned voice: {name}")
 
-        for lang_code, lang_cfg in LANGUAGES.items():
-            text = lang_cfg["sentence"]
+        for lang_code, text in v["sentences"].items():
             out_dir = OUTPUT / provider / lang_code / gender
             out_dir.mkdir(parents=True, exist_ok=True)
             out_path = out_dir / f"{slug(name)}.mp3"
 
+            lang_hint = lang_code if lang_code != "en" else None
             print(f"    -> {lang_code} ({len(text)} chars): {out_path.relative_to(ROOT)}")
-            audio = client.tts(voice_id=local_voice_id, text=text, model_id=model_id)
+            audio = client.tts(voice_id=local_voice_id, text=text, model_id=model_id, language_code=lang_hint)
             out_path.write_bytes(audio)
 
             manifest.append({
@@ -83,7 +83,7 @@ def main() -> None:
                 "local_voice_id": local_voice_id,
                 "gender": gender,
                 "language": lang_code,
-                "language_name": lang_cfg["name"],
+                "language_name": LANGUAGES[lang_code]["name"],
                 "category": v.get("category", ""),
                 "accent": v.get("accent", ""),
                 "age": v.get("age", ""),
